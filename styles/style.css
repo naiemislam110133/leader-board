@@ -1,7 +1,31 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Poppins:ital,wght@0,400;1,500&display=swap');
+/* common styles or utilite */
+body{
+    font-family: 'Moon Dance', cursive;
+font-family: 'Poppins', sans-serif;
+background-color: whitesmoke;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 720px;
+    background-color: wheat;
+    padding: 16px;
+}
 /* top players style */
+top-player{
+    margin-bottom: 30px;
+}
+.section-title{
+    color: rgb(34, 34, 235);
+}
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
 }
 .player img{
     height: 56px;
@@ -10,6 +34,30 @@
 .player{
     display: flex;
     align-items: center;
-    margin: 5px;
     
+    
+}
+.player-name{
+    padding-left: 16px;
+    font-size: 18px;
+
+}
+/* top blogs styles */
+.blog{
+    display: flex;
+}
+
+.blog .thumbnail img{
+    height: 117px;
+    width: 177px;
+}
+.blog-info{
+    margin-left: 16px;font-size: 16px;
+}
+.blog-author{
+    color: gray;
+    font-size: 14px;
+}
+.blog-author a{
+    text-decoration: none;
 }
