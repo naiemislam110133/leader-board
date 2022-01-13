@@ -96,12 +96,14 @@ hr{
 }
 .cource-info{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }.cource-duration{
     color: rgba(248, 95, 95, 0.897);
     border: 0.5px solid rgb(129, 129, 240);
     border-radius: 5px;
     font-size: -5px;
     padding: 0 5px;
-    margin-left: 1.5em;
+   
     font-weight: 800;
 }
