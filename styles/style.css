@@ -190,7 +190,12 @@ margin-bottom: 33px;
         flex-direction: column;
         top: 80px;
         left: 0;
-        background-color: #9f8eec9c;
+        background-color: rgba(0,0,0,.5);
+        transform: translateX(-380px);
+        transition: 1s ease-in-out;
+    }
+    #nav-toggler:checked ~ .navigation{
+        transform: translateX(0);
     }
     .navigation a{
         padding: 10px;
